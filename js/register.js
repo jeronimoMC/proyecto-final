@@ -81,6 +81,7 @@ function eliminarAlerta(referencia) {
       setTimeout(() => {
         alertaExito.classList.remove("alertaExito");
       }, 3000); 
+      window.location.href ="../games/main.html";
       return;
     }
     
